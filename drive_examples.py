@@ -33,7 +33,7 @@ def swing_turn(turn_time: float = 1):
 # Driving in a circle by setting a difference in motor efforts
 def circle():
     while True:
-        drivetrain.set_effort(0.8, 2)
+        drivetrain.set_effort(0.8, 1)
 
 # Follow the perimeter of a square with variable sidelength
 def square(sidelength):
